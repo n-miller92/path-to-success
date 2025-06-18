@@ -60,7 +60,6 @@ h1 {
 
 h2 {
     font-size: 2em;
-    font-weight: 900;
     padding: 10px;
 }
 
@@ -68,12 +67,14 @@ h3 {
     font-size: 1.5em;
     color: var(--yellow);
     padding: 10px;
+    font-weight: bold;
 }
 
 h4 {
     font-size: 1.15em;
     color: var(--purple);
     padding: 10px;
+    font-weight: bold;
 }
 
 header {
@@ -104,6 +105,39 @@ nav a {
     margin: 8px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+p{
+    padding: 10px;
+}
+
+#personal, #career, #relationship, #community, #focused, #interactive, #flexible {
+    display: block;
+    background-color: var(--white);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#why-choose {
+    background-color: var(--pink);
+}
+
+#why-choose ul {
+    display: flex;
+}
+
+.personal {
+    display: block;
+    background-color: var(--teal);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.results {
+    display: block;
 }
 
 #take-first-step a {
