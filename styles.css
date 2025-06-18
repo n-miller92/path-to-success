@@ -1,5 +1,6 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap);
+
 :root {
-    
 
     --teal :#4CA7C0;
     --purple: #484FB7;
@@ -8,4 +9,8 @@
     --pink: #D9526F;
     --dark-gray: #1E1E1E;
     --white: #ffffff;
+}
+
+h1, h2 {
+    font-family: "kavoon";
 }
