@@ -1,5 +1,19 @@
+/* CSS BY NAME */
+
+/* IMPORTED FONTS */
 @import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap);
 
+/* CSS RESET */
+html, body, h1, h2, h3, h4, p, a, img, ul, li, table, tr, th, td, footer, header, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+} 
+
+/* ROOT VARIABLES */
 :root {
 
     --teal :#4CA7C0;
@@ -11,10 +25,12 @@
     --white: #ffffff;
 }
 
-* {
+/* GLOBAL STYLES (mobile first/small) */
+
+html {
+    max-width: 450px;
     margin: 0 auto;
 }
-
 body {
     font-family: "inter";
     background-color: var(--lavender);
@@ -22,19 +38,15 @@ body {
 
 header, main, footer {
     background-color: var(--purple);
-    width: 400px;
 }
 
 nav {
     background-color: var(--yellow);
-    text-align: center;
-}
-ul {
-    list-style-type: none;
+    padding: 20px;
 }
 
-nav a {
-    text-decoration: none;
+ul {
+    list-style-type: none;
 }
 
 h1, h2 {
@@ -44,14 +56,6 @@ h1, h2 {
 
 h1 {
     font-size: 3em;
-    color: var(--white);
-}
-
-nav h2 {
-    font-size: 1.5em;
-    text-align: center;
-    font-family: "inter";
-    color: var(--dark-gray);
 }
 
 h2 {
@@ -64,6 +68,36 @@ h3 {
 
 h4 {
     font-size: 1.15em;
+}
+
+header {
+    color:var(--white);
+    text-align: center;
+}
+
+#heading {
+    margin: 10px;
+    padding: 20px;
+}
+
+nav h2 {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: "inter";
+    font-style: italic;
+    font-weight: bold;
+    color: var(--dark-gray);
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    background-color: var(--white);
+    text-align: center;
+    padding: 10px;
+    margin: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #take-first-step a {
