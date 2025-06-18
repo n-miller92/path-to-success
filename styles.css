@@ -11,6 +11,44 @@
     --white: #ffffff;
 }
 
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: "inter";
+    background-color: var(--lavender);
+}
+
+header, main, footer {
+    background-color: var(--purple);
+    width: 400px;
+}
+
+nav {
+    background-color: var(--yellow);
+}
+
 h1, h2 {
     font-family: "kavoon";
+}
+
+h1 {
+    font-size: 3em;
+}
+nav h2 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.15em;
 }
