@@ -98,6 +98,7 @@ nav h2 {
 
 nav a {
     text-decoration: none;
+    color: var(--purple);
     display: block;
     background-color: var(--white);
     text-align: center;
@@ -107,6 +108,9 @@ nav a {
     text-transform: uppercase;
 }
 
+nav a:visited{
+    color: var(--purple);
+}
 p{
     padding: 10px;
 }
