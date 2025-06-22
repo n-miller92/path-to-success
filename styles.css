@@ -158,7 +158,7 @@ p{
 }
 
 #one-on-one, #group, #workshops, #online {
-    border: 2px solid var(--yellow);
+    border: 3px solid var(--yellow);
     text-align: center;
     height: 150px;
     width: 250px;
